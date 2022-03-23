@@ -1,0 +1,29 @@
+.input_box {
+  display: flex;
+  width: 100%;
+  position: relative;
+  padding: 10px 0;
+}
+
+.input_box_label {
+  position: absolute;
+  top: 20px;
+  left: 5px;
+  color: rgb(170, 170, 170);
+  font-weight: 100;
+  transition: 0.5s ease all;
+}
+
+.input_box_input_field {
+  width: 100%;
+  border: 0.5px solid violet;
+  border-bottom: 1px solid lightgray;
+  outline: none;
+}
+
+.focus {
+  color: black;
+  font-size: 12px;
+  top: -15px;
+  left: px;
+}

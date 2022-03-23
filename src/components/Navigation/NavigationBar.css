@@ -1,0 +1,30 @@
+.nav-bar-container {
+  display: flex;
+  padding: 15px 40px;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 0px 5px 0.5px rgba(0, 0, 0, 0.5);
+}
+
+.nav-bar-title {
+  flex: 1;
+  font-weight: bold;
+}
+
+.nav-bar-option-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+a.nav-bar-option {
+  cursor: pointer;
+  margin: 10px 15px;
+  text-decoration: none !important;
+}
+
+.authentication-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

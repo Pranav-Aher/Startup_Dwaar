@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+.form {
+  font-family: "Poppins", sans-serif;
+}
+
+.sucess-story-form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0px 0px 20px 0px;
+  padding: 3% 5%;
+  border: 0.5px solid grey;
+  border-radius: 10px;
+}
+
+.form-btn-container {
+  display: flex;
+}
